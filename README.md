@@ -32,6 +32,4 @@ This repository showcases implementations of a variety of Design Patterns, predo
 - [ ] State  
 - [ ] Strategy  
 - [ ] Template Method  
-
-
-Visitor
+- [ ] Visitor
