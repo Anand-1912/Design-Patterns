@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BDDF7E57-A1E9-4399-8B25-44EFEC12CB00}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		solid-principles.md = solid-principles.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "src\Singleton\Singleton.csproj", "{28AF0BF0-ACCA-4804-80FE-0D41F67A0AB9}"
