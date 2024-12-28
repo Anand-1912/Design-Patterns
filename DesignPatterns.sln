@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "Open
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{D7FD72FB-65BF-44A4-BE27-07FB4E28DB56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgrammingPrinciples", "ObjectOrientedProgrammingPrinciples\ObjectOrientedProgrammingPrinciples.csproj", "{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,18 @@ Global
 		{D7FD72FB-65BF-44A4-BE27-07FB4E28DB56}.Release|x64.Build.0 = Release|Any CPU
 		{D7FD72FB-65BF-44A4-BE27-07FB4E28DB56}.Release|x86.ActiveCfg = Release|Any CPU
 		{D7FD72FB-65BF-44A4-BE27-07FB4E28DB56}.Release|x86.Build.0 = Release|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Debug|x64.Build.0 = Debug|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Debug|x86.Build.0 = Debug|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Release|x64.ActiveCfg = Release|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Release|x64.Build.0 = Release|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Release|x86.ActiveCfg = Release|Any CPU
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +97,7 @@ Global
 		{0FF0BD91-F1FC-4A12-9E1A-22A7F7F1EA34} = {BDDF7E57-A1E9-4399-8B25-44EFEC12CB00}
 		{179F511A-AB12-47A3-9563-191626BB695D} = {BDDF7E57-A1E9-4399-8B25-44EFEC12CB00}
 		{D7FD72FB-65BF-44A4-BE27-07FB4E28DB56} = {BDDF7E57-A1E9-4399-8B25-44EFEC12CB00}
+		{8F274B8C-680D-49F8-975F-7E9CB81ADC0F} = {BDDF7E57-A1E9-4399-8B25-44EFEC12CB00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EFAEEBC8-7D68-4BC8-BBF5-4FF02A662206}
