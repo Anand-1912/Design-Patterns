@@ -15,7 +15,7 @@ Encapsulation
 	- Class is a blueprint for creating objects (instances).
 	- Encapsulation is the technique of making the fields in a class private (thus hiding internal details) and providing access to the fields via public methods.
 
-	```csharp
+	```C#
 
 	public class BadBankAccount
 	{
