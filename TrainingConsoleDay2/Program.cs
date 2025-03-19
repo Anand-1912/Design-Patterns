@@ -72,6 +72,8 @@ Console.WriteLine($"{nameof(operands1)}:{operands1.num1}");
 Console.WriteLine($"{nameof(operands2)}:{operands2.num1}");
 
 ////--------------------------------------------------------------------------------------------////
+///
+Console.WriteLine("--------------------------------------------------------------------------------------------");
 
 
 // member types - fields, constants, properties, methods, events, constructors, finalizers, indexers, operators, nested types
@@ -92,7 +94,7 @@ var myCar = Car.BuildMyCar()
 
 myCar.DisplayCarDetails();
 
-
+Console.WriteLine("--------------------------------------------------------------------------------------------");
 ////--------------------------------------------------------------------------------------------////
 // Indexers
 
@@ -105,17 +107,18 @@ wordDocument[3] = "This is page 4";
 wordDocument[4] = "This is page 5";
 wordDocument[5] = "This is page 6"; // Error: Pages exceeded.
 
+Console.WriteLine("--------------------------------------------------------------------------------------------");
 ////--------------------------------------------------------------------------------------------////
 //final-example
 
-BankAccount bankAccount = new(); // Default constructor
+BankAccount bankAccount = new(name: "Anand", initialDeposit:1000, thresholdBalance:500); // Default constructor
 
 bankAccount.OnBalanceLow += SendEmail_OnBalanceLow;
 bankAccount.OnBalanceLow += SendSMS_OnBalanceLow;
 
-bankAccount.Deposit(1000);
-bankAccount.Withdraw(500);
-bankAccount.Withdraw(450);
+bankAccount.Deposit(1000); //balance: 2000
+bankAccount.Withdraw(500); //balance: 1500
+bankAccount.Withdraw(1100); //balance: 400 
 
 void SendSMS_OnBalanceLow(object? sender, EventArgs e)
 {

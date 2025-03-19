@@ -14,6 +14,8 @@ namespace TrainingConsoleDay2
         // 🔹 Fields
         private decimal _balance = 0;
         private string _accountHolder = "";
+        private decimal _thresholdBalance = 200;
+
         private List<Transaction> _transactions = new List<Transaction>();
 
         // 🔹 Constants
@@ -27,7 +29,7 @@ namespace TrainingConsoleDay2
             private set
             {
                 _balance = value;
-                if (_balance < MinBalance)
+                if (_balance < _thresholdBalance)
                 {
                     OnBalanceLow?.Invoke(this, EventArgs.Empty);
                 }
@@ -51,10 +53,14 @@ namespace TrainingConsoleDay2
         }
 
         // 🔹 Constructor (Parameterized)
-        public BankAccount(string name, decimal initialDeposit)
+        public BankAccount(string name, decimal initialDeposit, decimal? thresholdBalance = null)
         {
             _accountHolder = name;
             _balance = initialDeposit;
+            if (thresholdBalance != null)
+            {
+                _thresholdBalance = thresholdBalance.Value;
+            }
             Console.WriteLine($"Account created for {name} with balance: ${initialDeposit}");
         }
 
