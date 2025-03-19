@@ -22,16 +22,29 @@ int num4 = 40;
 
 static void Swap(int num3, int num4)
 {
+    Console.WriteLine("------------------");
+
+
+    Console.WriteLine("Inside Swap");
+    Console.WriteLine(num3);
+    Console.WriteLine(num4);
+
     int temp = num3;
     num3 = num4;
     num4 = temp;
+
+    Console.WriteLine("After Swap");
+    Console.WriteLine(num3);
+
+    Console.WriteLine("------------------");
+
 }
 
 Console.WriteLine("Before Swap");
 Console.WriteLine(num3);
 Console.WriteLine(num4);
 
-Swap(num3, num4);
+Swap(num3, num4); // main function
 
 Console.WriteLine("After Swap");
 

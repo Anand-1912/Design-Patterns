@@ -2,7 +2,7 @@
 
 internal class Operands
 {
-    public int num1;
+    public int num1; // 4 bytes
 
-    public int num2;
+    public int num2; // 4 bytes
 }
